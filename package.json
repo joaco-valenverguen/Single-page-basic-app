@@ -1,0 +1,28 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "webpack --mode=production",
+    "d": "webpack --mode=development",
+    "ds": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
